@@ -6,6 +6,10 @@
 
 :root{
     font-family: helvetica;
+    --cor-escura: #212121;
+    --cor-botao-home: #f9a825;
+    --cor-botao-hover: red;
+    --cor-background-p: rgb(241, 237, 237);
 }
 
 .flex {
@@ -14,7 +18,7 @@
 
 header {
     align-items: center;
-    background-color: #212121;
+    background-color: var(--cor-escura);
     color: white;
     height: 40px;
     justify-content: space-around;
@@ -36,12 +40,12 @@ header > nav > ul > li {
 }
 
 header > nav > ul > #botao-home {
-    background-color: #f9a825;
+    background-color: var(--cor-botao-home);
     border-radius: 20px;
 }
 
 .botao-hover:hover{
-    background-color: red;
+    background-color: var(--cor-botao-hover);
 }
 
 #container-main {
@@ -52,14 +56,14 @@ header > nav > ul > #botao-home {
 
 #container-p {
     align-items: center;
-    border-right: 1px dashed black;
+    border-right: 1px dashed var(--cor-escura);
     height: 100%;
     padding: 5px;
     width: 50%;
 }
 
 p {
-    background-color: rgb(241, 237, 237);
+    background-color: var(--cor-background-p);
     padding: 2%;
 }
 
@@ -79,7 +83,7 @@ input {
 
 footer {
     align-items: center;
-    background-color: #212121;
+    background-color: var(--cor-escura);
     bottom: 0;
     display: flex;
     height: 80px;
