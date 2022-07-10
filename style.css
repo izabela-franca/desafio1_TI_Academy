@@ -33,6 +33,11 @@ header > nav > ul {
     justify-content: flex-end;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
 header > nav > ul > li {
     list-style: none;
     margin: 2px;
@@ -46,6 +51,7 @@ header > nav > ul > #botao-home {
 
 .botao-hover:hover{
     background-color: var(--cor-botao-hover);
+    cursor: pointer;
 }
 
 #container-main {
@@ -79,6 +85,10 @@ input {
 
 #botao-form {
     width: 50%;
+}
+
+#botao-form:hover {
+    cursor: pointer;
 }
 
 footer {
