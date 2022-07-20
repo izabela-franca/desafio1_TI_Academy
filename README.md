@@ -9,5 +9,5 @@ ____________________________________________________________________________
 
 https://izabela-franca.github.io/desafio1_TI_Academy/
 
-![image](https://user-images.githubusercontent.com/101933646/178118289-7269a77b-5cc3-4689-8a1a-1eba8ce819d9.png)
+![image](https://user-images.githubusercontent.com/101933646/179993800-cd3581b9-5812-4983-8927-fd8422424efa.png)
 
